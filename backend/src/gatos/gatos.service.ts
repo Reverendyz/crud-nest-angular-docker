@@ -14,7 +14,7 @@ export class GatosService {
     };
 
     async criar(gato: Gato): Promise<Gato> {
-        const gatoCriado = new Gato(gato);
+        const gatoCriado = new this.gatoModel(gato);
 
         return gatoCriado.save();
     }

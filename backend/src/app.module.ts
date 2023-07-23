@@ -7,7 +7,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [MongooseModule.forRoot("mongodb://root:example@database:27017/testDb?AuthSource=admin"), GatosModule],
+  imports: [MongooseModule.forRoot("mongodb://root:example@database:27017/testdb?authSource=admin"), GatosModule],
   controllers: [AppController],
   providers: [AppService],
 })
