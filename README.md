@@ -1,8 +1,11 @@
 # Docker NestJS and Angular
 
+## Prerequisites
+
+- [docker](https://www.docker.com/)
+
 ## Running
 
 ```shell
-npm install
-npm run start
+docker compose up [-d]
 ```
